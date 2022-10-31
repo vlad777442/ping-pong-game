@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="ping.js" type="text/javascript"></script>
+        <link href="cssstart.css" rel="stylesheet">
+    </head>
+    <body bgcolor="black">
+        <header>
+            <div id="name">Pong Game</div>
+            
+        </header>
+        <div id="main">
+            <div id="start" class="control">Играть</div>
+            <div id="rating" class="control">Рейтинг</div>
+            <!--<div id="settings" class="control">Настройки</div>-->
+            <div id="set">
+                <div id="username">
+                    Введите имя:<br>
+                    <input type="text" size="30" id="nam">
+                </div>
+                <div id="number">
+                    Количетво раундов: 
+                    <input type="text" size="30" id="num">
+                </div>
+                <div id="startgame">Старт</div>
+                <div class="info">*имя по-умолчанию - Stranger<br>*количество раундов по умолчанию - 3</div>
+                
+            </div>
+            <div id="rate">
+                <div id="rate2">Топ 10</div>
+                <div id="n1" class="top">1. </div>
+                <div id="n2" class="top">2. </div>
+                <div id="n3" class="top">3. </div>
+                <div id="n4" class="top">4. </div>
+                <div id="n5" class="top">5. </div>
+                <div id="n6" class="top">6. </div>
+                <div id="n7" class="top">7. </div>
+                <div id="n8" class="top">8. </div>
+                <div id="n9" class="top">9. </div>
+                <div id="n10" class="top">10. </div>
+            </div>
+            <canvas id="pingpong" width="996" height="600"></canvas>
+        </div>
+        <div id="playstop">Стоп</div>
+        <div id="endgame">Завершить</div>
+    </body>
+</html>
